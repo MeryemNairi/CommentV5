@@ -1,19 +1,19 @@
 
 
-/* Contrôle les styles de la section pour ajouter un commentaire */
+
 
 .addCommentSection {
   text-decoration: underline;
   text-underline-position: under;
-  cursor: pointer;/* Centre verticalement les éléments */
+  cursor: pointer;
 }
 
-/* Contrôle la largeur et la hauteur du champ de commentaire */
+
 .commentInput {
-  width: 89%; /* Largeur du champ de commentaire */
-  height: 60px /* Le champ de commentaire prendra autant d'espace disponible que possible */
+  width: 89%; 
+  height: 60px 
 }
-/* Contrôle les styles du bouton "Publier" */
+
 
  
   
@@ -23,78 +23,75 @@
 
 
 
-/* Contrôle le positionnement vertical du conteneur principal */
+
 .container {
-  margin-top: 5rem; /* Marge en haut du conteneur */
-  background-color: rgb(223,249,241); /* Couleur de fond */
-  height: 100vh; /* Hauteur de la vue à 100% */
+  margin-top: 5rem; 
+  background-color: rgb(223,249,241);
+  height: 100vh; 
   padding-left: 20px; 
 }
 
 
-/* Contrôle le positionnement des éléments à l'intérieur de la ligne */
+
 .row {
  
-  align-items: left; /* Centre verticalement les éléments */
+  align-items: left; 
  
 }
 
-/* Contrôle les styles de la carte de commentaire */
 .card {
-  margin: 0 auto 1.5rem auto; /* Marge automatique à gauche et à droite pour centrer horizontalement */
-  border: none; /* Supprime la bordure */
-  box-shadow: 5px 6px 6px 2px #e9ecef; /* Ombre de la carte */
-  border-radius: 4px; /* Bord arrondi de la carte */
+  margin: 0 auto 1.5rem auto; 
+  border: none; 
+  box-shadow: 5px 6px 6px 2px #e9ecef; 
+  border-radius: 4px; 
 }
 
-/* Contrôle le positionnement des éléments à l'intérieur du conteneur utilisateur */
 .user {
-  display: flex; /* Affiche les éléments en ligne */
-  align-items: center; /* Centre verticalement les éléments */
+  display: flex;
+  align-items: center; 
 }
 
-/* Contrôle les styles du nom d'utilisateur */
+
 .userName {
-  font-weight: bold; /* Police en gras */
-  color: #030c16; /* Couleur du texte */
+  font-weight: bold; 
+  color: #030c16; 
 }
 
-/* Contrôle les styles du texte du commentaire */
+
 .commentText {
-  color: #504e4e; /* Couleur du texte */
+  color: #504e4e;
   font-size: 16px;
-  font-style: italic; /* Style de police en italique */
+  font-style: italic; 
 }
 
-/* Contrôle le style du caractère ':' */
+
 .colon {
-  font-weight: bold; /* Police en gras */
+  font-weight: bold; 
 }
 
-/* Contrôle le positionnement des éléments dans la section d'ajout de commentaire */
 .addCommentSection {
-  justify-content: space-between; /* Espacement égal entre les éléments de la ligne */
+  justify-content: space-between; 
 }
 
 .commentDate {
-  font-size: 12px; /* Taille de la police plus petite */
+  font-size: 12px; 
   font-style: italic;
-  color: #8d8d8d; /* Style de police en italique */
+  color: #8d8d8d; 
 }
 .logoContainer {
-  margin-bottom: 20px; // Adjust as needed
+  margin-bottom: 20px; 
 }
 
 .logo {
-  max-width: 100%; // Ensure the logo doesn't exceed its container's width
-  height: auto; // Maintain aspect ratio
+  max-width: 100%; 
+  height: auto; 
 }
 
-/* Style du titre des commentaires */
+
 .commentTitle {
-  font-size: 20px; /* Taille de la police */
-  font-weight: bold; /* Police en gras */
-  color: #58c1a3; /* Couleur du texte */
-  margin-bottom: 20px; /* Marge inférieure pour l'espace */
+  font-size: 20px; 
+  font-weight: bold;
+  color: #58c1a3; 
+  margin-bottom: 20px; 
   font-style: italic;
 }

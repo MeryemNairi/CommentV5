@@ -3,11 +3,10 @@ import * as ReactDom from 'react-dom';
 import { Version } from '@microsoft/sp-core-library';
 import {
   BaseClientSideWebPart,
-  //IPropertyPaneConfiguration,
-  //PropertyPaneTextField,
+
 } from '@microsoft/sp-webpart-base';
 import { sp } from "@pnp/sp/presets/all";
-//import * as strings from 'CommentV1WebPartStrings';
+
 
 
 

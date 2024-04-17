@@ -69,14 +69,11 @@ export default class CommentV1 extends React.Component<{}, ICommentV1State> {
         </div>
         <div className={`row d-flex justify-content-center align-items-center ${styles.row}`}>
           <div className="col-md-8">
-             {/* Titre des commentaires:*/}
           <h2 className={styles.commentTitle}>Tous les commentaires :</h2>
           <div style={{ marginBottom: '20px' }}></div>
-          {/* Commentaires */}
             {comments.map((comment, index) => (
               <div key={index} className={`card p-3 ${styles.card}`}>
                 <div className="d-flex justify-content-between align-items-center">
-                  {/* Utilisateur */}
                   <div className={`user d-flex flex-row align-items-center ${styles.user}`}>
                     <span>
                       <small className={`font-weight-bold text-primary ${styles.userName}`}>{comment.User}</small>
@@ -84,7 +81,6 @@ export default class CommentV1 extends React.Component<{}, ICommentV1State> {
                       <small className={`font-weight-bold ${styles.commentText}`}>{comment.comment}</small>
                     </span>
                   </div>
-                  {/* Date */}
                   <small className={styles.commentDate}>{comment.date}</small>
                 </div>
               </div>
