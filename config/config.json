@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "comments-v-5-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/commentsV5/CommentsV5WebPart.js",
+          "manifest": "./src/webparts/commentsV5/CommentsV5WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CommentsV5WebPartStrings": "lib/webparts/commentsV5/loc/{locale}.js"
+  }
+}

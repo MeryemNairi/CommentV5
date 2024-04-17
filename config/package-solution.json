@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "comments-v-5-client-side-solution",
+    "id": "5664fe40-2d41-4444-a986-aa738dd18f7c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CommentsV5 description"
+      },
+      "longDescription": {
+        "default": "CommentsV5 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "comments-v-5 Feature",
+        "description": "The feature that activates elements of the comments-v-5 solution.",
+        "id": "104ec8b1-8d1f-4162-b0a2-6b1d86974113",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/comments-v-5.sppkg"
+  }
+}
