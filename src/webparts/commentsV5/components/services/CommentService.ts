@@ -15,7 +15,7 @@ export interface IComment {
 export default class CommentService {
   async getComments(): Promise<IComment[]> {
     try {
-      const response = await sp.web.lists.getByTitle("commentV3").items.select("comment", "date", "User").get();
+      const response = await sp.web.lists.getByTitle("CommentV3").items.select("comment", "date", "User").get();
       
       const formattedComments = response.map((comment) => ({
         ...comment,
@@ -30,7 +30,7 @@ export default class CommentService {
   async postComment(comment: string): Promise<void> {
     try {
       const currentUser = await sp.web.currentUser.get();
-      await sp.web.lists.getByTitle("commentV3").items.add({
+      await sp.web.lists.getByTitle("CommentV3").items.add({
         comment: comment,
         date: new Date(),
         User: currentUser.Title,

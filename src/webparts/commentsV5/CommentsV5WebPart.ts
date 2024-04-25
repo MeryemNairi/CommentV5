@@ -12,11 +12,6 @@ import { sp } from "@pnp/sp/presets/all";
 
 import CommentV5 from './components/CommentsV5';
 
-
-
-
-
-
 export default class CareerPageWebPart extends BaseClientSideWebPart<{}> {
 
   protected onInit(): Promise<void> {

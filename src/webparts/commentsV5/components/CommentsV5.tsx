@@ -26,6 +26,7 @@ export default class CommentV1 extends React.Component<{}, ICommentV1State> {
 
   componentDidMount() {
     this.fetchComments();
+    setInterval(this.fetchComments, 10000);
   }
 
   fetchComments = async () => {
